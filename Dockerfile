@@ -1,6 +1,6 @@
 FROM kalilinux/kali-linux-docker
 
-# Install openssh-server with the -y flag for non-interactive process
+# Update and install Kali tooks. -y flag for non-interactive process
 RUN apt-get update && apt-get install -y  kali-linux-all
 
 # Set password for root
